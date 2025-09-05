@@ -1,0 +1,170 @@
+body{
+  font-family: Arial, sans-serif;
+  background:#e9f2ff;
+  margin:0;
+  padding:0;
+  color:#222;
+}
+
+.container{
+  max-width:700px;
+  margin:30px auto;
+  padding:30px;
+  background:linear-gradient(145deg,#fff,#f0f8ff);
+  border-radius:20px;
+  box-shadow:0 12px 30px rgba(0,0,0,0.08);
+}
+
+.header{
+  text-align:center;
+  margin-bottom:18px;
+}
+
+.logo18{
+  width:110px;
+  height:110px;
+  border-radius:50%;
+  background:#fafafa;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:700;
+  font-size:28px;
+  color:#333;
+  box-shadow:0 6px 18px rgba(0,0,0,0.06);
+}
+
+.btn{
+  display:block;
+  width:100%;
+  padding:14px;
+  border-radius:14px;
+  color:#fff;
+  border:none;
+  font-weight:700;
+  margin:12px 0;
+  cursor:pointer;
+  box-shadow:0 8px 20px rgba(0,0,0,0.08);
+}
+
+.btn-primary{
+  background:linear-gradient(135deg,#00c6ff,#0072ff);
+}
+
+.btn-pink{
+  background:linear-gradient(135deg,#ff7eb3,#ff758c);
+}
+
+.box{
+  background:#fafafa;
+  border-radius:12px;
+  padding:14px;
+  margin-top:14px;
+  box-shadow:0 4px 15px rgba(0,0,0,0.04);
+}
+
+.slide{
+  display:none;
+  max-width:760px;
+  margin:20px auto;
+  padding:26px;
+  border-radius:18px;
+  background:#fff;
+  box-shadow:0 12px 30px rgba(0,0,0,0.06);
+}
+
+.slide h2{
+  margin:6px 0 16px;
+  color:#0b63d6;
+  text-align:center;
+}
+
+.groupItem{
+  padding:12px;
+  border-radius:12px;
+  background:#fbfbff;
+  margin-bottom:12px;
+  display:flex;
+  justify-content:flex-start;
+  align-items:center;
+  box-shadow:0 6px 18px rgba(0,0,0,0.03);
+}
+
+.groupInfo{
+  max-width:72%;
+  margin-left:12px;
+}
+
+.smallNote{
+  color:#555;
+  font-size:13px;
+  margin-top:6px;
+}
+
+.actionBtns{
+  display:flex;
+  gap:8px;
+  margin-left:auto;
+}
+
+#searchInput{
+  width:100%;
+  padding:10px;
+  border-radius:10px;
+  border:1px solid #ddd;
+  margin-bottom:12px;
+}
+
+.formRow{
+  margin:10px 0;
+}
+
+.input{
+  width:100%;
+  padding:10px;
+  border-radius:10px;
+  border:1px solid #d6dbe8;
+}
+
+.back{
+  display:inline-block;
+  margin-top:10px;
+  padding:8px 12px;
+  border-radius:10px;
+  background:#f0f0f0;
+  color:#333;
+  cursor:pointer;
+  border:none;
+}
+
+.center{text-align:center;}
+
+.priceTag{
+  background:#0072ff;
+  color:#fff;
+  padding:2px 6px;
+  border-radius:6px;
+  font-size:12px;
+  margin-left:6px;
+}
+
+.successMessage{
+  font-size:16px;
+  color:#0b63d6;
+  text-align:center;
+  margin-top:20px;
+}
+
+.paymentNote{
+  font-size:14px;
+  color:#333;
+  margin-top:12px;
+  line-height:1.5;
+}
+
+.reviewAvatar{
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  object-fit:cover;
+}
